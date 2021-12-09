@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+.parent {
+    max-width: 1920px;
+    width: 100%;
+    background-color: #0020F4;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.parent1 {
+    max-width: 1920px;
+    width: 100%;
+    background-color: #0020F4;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow: hidden;
+}
+
+
+.flex {
+    display: flex;
+}
+.navitems {
+    text-decoration: none;
+    color: white;
+    
+}
+li { 
+    list-style: none;
+}
+.logo {
+    width: 115px;
+    height: 65px;
+    margin-left: 60px;
+    margin-top: 30px;
+
+}
+.liitems {
+    align-items: center;
+    align-content: space-between;
+}
+.navitems { 
+    margin-left: 20px;
+    
+}
+.background {
+    width: 100%;
+    background-color: #0a22f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .basictext {
+    color: white;
+    padding-top: 200px;
+    padding-left: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Helvetica Neue";
+  }
+  .map {
+    width: 463px;
+    height: 197px;
+    margin-top: 58px;
+  }
+  
+  .contactheader {
+    color: white;
+  }
+  .basictext h3 {
+    font-size: 32px;
+    width: 162px;
+    height: 38px;
+    color: white;
+  }
+  
+  .text {
+    font-size: 16px;
+    width: 463px;
+    height: 99px;
+    margin-top: 16px;
+    color: white;
+  }
+  
+  .flex img {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    padding: 22px;
+  }
+  
+  .flex p {
+    font-size: 22px;
+    color: white;
+  }
+  .icons {
+    justify-content: flex-start;
+    margin-top: 92px;
+  }
+  .contactbox {
+    justify-content: space-between;
+  }
+  .message {
+    margin-left: 30px;
+  }
+  .contactbox p {
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  
+  .form-field input {
+    width: 463px;
+    height: 60px;
+    background-color: #0a22f4;
+    border: none;
+    border-bottom: 0.5px solid white;
+  }
+  .inputposition {
+    margin-top: -600px;
+    margin-left: 850px;
+  }
+  ::placeholder {
+    color: white;
+    opacity: 1;
+  }
+  
+  .button {
+    background-color: white;
+    width: 155px;
+    height: 55px;
+    padding-left: 18 45 18 36;
+    margin-left: 300px;
+    margin-top: 15px;
+    align-items: flex-end;
+  }
