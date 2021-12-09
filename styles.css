@@ -123,7 +123,12 @@ li {
     margin-top: 20px;
     margin-left: -200px;
   }
-  
+  .basicsection {
+      margin-top: 50px;
+      margin-left: 300px;
+      width: 800px;
+      height: 400px;
+  }
   .form-field input {
     width: 463px;
     height: 60px;
