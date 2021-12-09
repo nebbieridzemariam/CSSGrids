@@ -10,6 +10,7 @@
     background-color: #0020F4;
     display: grid;
     grid-template-columns: 1fr 4fr;
+    padding: 80px 241px 282px 140px;
 }
 .parent1 {
     max-width: 1920px;
@@ -18,6 +19,10 @@
     display: grid;
     grid-template-columns: 50% 50%;
     overflow: hidden;
+}
+.item2 {
+    padding-left: 488px;
+    padding-top: 40px;
 }
 
 
@@ -62,7 +67,6 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-family: "Helvetica Neue";
   }
   .map {
     width: 463px;
@@ -96,7 +100,7 @@ li {
   }
   
   .flex p {
-    font-size: 22px;
+    font-size: 16px;
     color: white;
   }
   .icons {
@@ -110,13 +114,14 @@ li {
     margin-left: 30px;
   }
   .contactbox p {
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 20px;
   }
   .form-field {
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-left: -200px;
   }
   
   .form-field input {
@@ -140,7 +145,10 @@ li {
     width: 155px;
     height: 55px;
     padding-left: 18 45 18 36;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 15px;
     align-items: flex-end;
+    border-radius: 15%;
   }
+  
+      
